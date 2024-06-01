@@ -498,7 +498,13 @@ nav .fa-sharp ,nav .fa-solid{
   display: none;
 }
 @media only screen and (max-width:600px) {
-  
+
+    #header{
+    width: 100%;
+    background-image: url(images/Phone\ Background.png);
+    background-size: cover;
+    background-position:center;
+}
   .header-text{
     margin-top: 100%;
     font-size: 16px;
